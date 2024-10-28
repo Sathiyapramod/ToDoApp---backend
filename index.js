@@ -15,7 +15,7 @@ await client.connect(); //This is a calling operation
 //since calling will take some time, await needs to be prefixed
 
 app.get("/", (request, response) => {
-  response.send({ message: "Welcome to Home Page" });
+  response.send({ message: "To Do", version:1.0 ,comments:"Perform required CRUD Operations for the tasks module " });
 });
 
 //READ operations in todo lists
